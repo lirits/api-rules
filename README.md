@@ -1,2 +1,5 @@
 # ReadMe
-> 本库主要是存放自用的规则
+> This library is mainly used to store distribution rules
+* surge
+  * rules
+  * module
