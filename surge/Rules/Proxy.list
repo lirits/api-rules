@@ -125,6 +125,7 @@ DOMAIN-SUFFIX,chromercise.com
 DOMAIN-SUFFIX,chromestatus.com
 DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,cl.ly
+DOMAIN-SUFFIX,clien.net
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudgarage.jp
@@ -227,7 +228,7 @@ DOMAIN-SUFFIX,gunsamerica.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,helpshift.com
-DOMAIN-SUFFIX,hinet.net
+DOMAIN-SUFFIX,hitun.io
 DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,homedepot.com
 DOMAIN-SUFFIX,hootsuite.com
@@ -288,6 +289,7 @@ DOMAIN-SUFFIX,logmein.com
 DOMAIN-SUFFIX,macid.co
 DOMAIN-SUFFIX,macromedia.com
 DOMAIN-SUFFIX,macrumors.com
+DOMAIN-SUFFIX,mangaup.jp
 DOMAIN-SUFFIX,manhuaren.com
 DOMAIN-SUFFIX,marketwatch.com
 DOMAIN-SUFFIX,mashable.com
@@ -313,7 +315,9 @@ DOMAIN-SUFFIX,ndr.de
 DOMAIN-SUFFIX,netdna-cdn.com
 DOMAIN-SUFFIX,newipnow.com
 DOMAIN-SUFFIX,nextmedia.com
+DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nih.gov
+DOMAIN-SUFFIX,nimg.jp
 DOMAIN-SUFFIX,nintendo.com
 DOMAIN-SUFFIX,nintendo.net
 DOMAIN-SUFFIX,notion.so
@@ -605,8 +609,6 @@ DOMAIN-SUFFIX,zalmos.com
 DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN-SUFFIX,zeutch.com
 DOMAIN-SUFFIX,zynamics.com
-
-# > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
 USER-AGENT,WhatsApp*
 
 DOMAIN-KEYWORD,appledaily
@@ -639,7 +641,6 @@ DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,gcr.io
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gosetsuden.jp
-DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gwtproject.org
 DOMAIN-SUFFIX,heroku.com
 DOMAIN-SUFFIX,html5rocks.com
@@ -669,14 +670,6 @@ DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,v2ex.com
 
 DOMAIN-KEYWORD,dlercloud
-
-# > Fast
-DOMAIN-SUFFIX,fast.com
-
-# > Speedtest by Ookla
-USER-AGENT,SpeedTest*
-DOMAIN-KEYWORD,speedtest
-DOMAIN-SUFFIX,ooklaserver.net
 
 # > Amazon
 IP-CIDR,13.32.0.0/16,no-resolve
@@ -752,18 +745,59 @@ IP-CIDR,75.126.0.0/16,no-resolve
 IP-CIDR,174.37.0.0/16,no-resolve
 IP-CIDR,208.43.0.0/16,no-resolve
 
+# > Telegram
 DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telesco.pe
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.8.0/22,no-resolve
-IP-CIDR,91.108.12.0/22,no-resolve
-IP-CIDR,91.108.16.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
+
+# > Steam
+DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamstatic.com
+
+# > Fast
+DOMAIN-SUFFIX,fast.com
+
+# > Speedtest by Ookla
+USER-AGENT,SpeedTest*
+DOMAIN-KEYWORD,speedtest
+DOMAIN-SUFFIX,ooklaserver.net
+
+# > Microsoft
+USER-AGENT,OneDrive*
+DOMAIN-KEYWORD,onedrive
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,fabric.io
+DOMAIN-SUFFIX,files.1drv.com
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,mesh.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,microsoft-tst.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,p.sfx.ms
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+DOMAIN-SUFFIX,storage.msn.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com

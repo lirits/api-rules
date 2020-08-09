@@ -14,3 +14,7 @@ USER-AGENT,com.kktv*
 DOMAIN-SUFFIX,kktv.me
 DOMAIN-SUFFIX,kktv.com.tw
 DOMAIN,kktv-theater.kk.stream
+# >> TaiwanGood
+DOMAIN,hamifans.emome.net
+DOMAIN-SUFFIX,skyking.com.tw
+USER-AGENT,TaiwanGood*
