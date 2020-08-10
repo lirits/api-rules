@@ -369,6 +369,8 @@ PROCESS-NAME,Transmission
 PROCESS-NAME,uTorrent
 PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
+#Others
+DOMAIN,visio.mudong.fun
 
 # >> Tencent AIA
 IP-CIDR,162.14.0.0/18,no-resolve
