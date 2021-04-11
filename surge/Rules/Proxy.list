@@ -801,3 +801,24 @@ DOMAIN-SUFFIX,storage.msn.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
+# Rules
+
+DOMAIN-SUFFIX,youremby.gq
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,iplcm.com
+DOMAIN-SUFFIX,awscns.cn
+DOMAIN-SUFFIX,mini4k.com
+DOMAIN-SUFFIX,kite.com
+DOMAIN-SUFFIX,duyaoss.com
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,qexw.com
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,liout.com
+DOMAIN-SUFFIX,liyuans.com
+DOMAIN,sub.izclass.com.a.bdydns.com
+DOMAIN,sub.izclass.com
+DOMAIN-SUFFIX,iplcm.site
+DOMAIN,anyhk.net
+DOMAIN,idc.wiki

@@ -372,3 +372,10 @@ DOMAIN,visio.mudong.fun
 
 # >> Tencent AIA
 IP-CIDR,162.14.0.0/18,no-resolve
+
+# Rules
+DOMAIN-SUFFIX,zyin.cc
+DOMAIN-SUFFIX,chaoxing.com
+DOMAIN-SUFFIX,xunlei.com
+DOMAIN-SUFFIX,huya.com
+DOMAIN-SUFFIX,douyu.com
